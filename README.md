@@ -22,3 +22,5 @@ auto deploy
 ```
 node server.js
 ```
+## https://sonicjs.com/docs#local-setup 
+
