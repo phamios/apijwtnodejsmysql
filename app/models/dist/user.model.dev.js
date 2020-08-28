@@ -1,5 +1,7 @@
-module.exports = (sequelize, Sequelize) => {
-  const User = sequelize.define("users", {
+"use strict";
+
+module.exports = function (sequelize, Sequelize) {
+  var User = sequelize.define("users", {
     username: {
       type: Sequelize.STRING
     },
@@ -10,6 +12,5 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.STRING
     }
   });
-
   return User;
 };
