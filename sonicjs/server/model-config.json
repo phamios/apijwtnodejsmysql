@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "primary",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "primary",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "primary",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "primary",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "primary",
+    "public": false
+  },
+  "contentType": {
+    "dataSource": "primary",
+    "public": true
+  },
+  "content": {
+    "dataSource": "primary",
+    "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "view": {
+    "dataSource": null,
+    "public": true
+  },
+  "module": {
+    "dataSource": null,
+    "public": true
+  },
+  "formio": {
+    "dataSource": null,
+    "public": true
+  }
+}
