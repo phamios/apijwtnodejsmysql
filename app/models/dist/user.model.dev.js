@@ -2,9 +2,6 @@
 
 module.exports = function (sequelize, Sequelize) {
   var User = sequelize.define("users", {
-    id: {
-      type: Sequelize.INTEGER
-    },
     username: {
       type: Sequelize.STRING
     },
