@@ -17,6 +17,7 @@ Working with Front-end:
 npm install
 ```
 https://apinodejsmysql1.herokuapp.com/
+auto deploy 
 ### Run
 ```
 node server.js
