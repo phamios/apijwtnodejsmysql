@@ -8,7 +8,7 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.STRING
     },
     balance: {
-      type: Sequelize.DOUBLE
+      type: Sequelize.INTEGER
     },
     password: {
       type: Sequelize.STRING
