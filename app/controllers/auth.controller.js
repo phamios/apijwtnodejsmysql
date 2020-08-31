@@ -43,7 +43,7 @@ exports.signup = (req, res) => {
 exports.signin = (req, res) => {
   User.findOne({
     where: {
-      username: 'sonpx'//req.body.username
+      username:  req.body.username
     }
   })
     .then(user => {
