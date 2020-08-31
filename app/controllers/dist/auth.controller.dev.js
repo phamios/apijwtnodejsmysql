@@ -51,7 +51,8 @@ exports.signup = function (req, res) {
 exports.signin = function (req, res) {
   User.findOne({
     where: {
-      username: req.body.username
+      username: 'sonpx' //req.body.username
+
     }
   }).then(function (user) {
     if (!user) {
